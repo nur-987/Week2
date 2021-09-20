@@ -17,6 +17,9 @@ namespace CtorPractice
         {
             Person p = new Person();
             Person paramP = new Person(25, 1998);
+
+            Student s1 = new Student();
+            Student s2 = new Student(1, "Jane");
         }
     }
 
@@ -24,11 +27,14 @@ namespace CtorPractice
     {
         int age = 20;
 
+        //default ctor
         public Person()
         {
             Console.WriteLine(age);
             Console.ReadLine();
         }
+
+        //paramaterised ctor
         public Person(int age, int yearBorn)
         {
             Console.WriteLine(age);
@@ -36,6 +42,7 @@ namespace CtorPractice
             Console.ReadLine();
         }
 
+        //static ctor
         static Person()
         {
             int AcedYear = 2002;
@@ -43,5 +50,23 @@ namespace CtorPractice
             Console.ReadLine();
         }
 
+    }
+
+    class Student
+    {
+        //default const
+        public Student()
+        {
+            Console.WriteLine("Im a constructor");
+        }
+
+        //parameterised
+        public Student(int num, string name)
+        {
+            Console.WriteLine("Im a parameterised constructor");
+            Console.Write(num);
+            Console.Write(name);
+            Console.ReadLine();
+        }
     }
 }
