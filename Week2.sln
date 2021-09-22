@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Ca
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp2", "ConsoleApp2\ConsoleApp2.csproj", "{3B204603-E8A1-4D9B-8B95-8A73D080ECFE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeDifference", "TimeDifference\TimeDifference.csproj", "{693A2E8D-CC9A-4F85-88C1-49DCBD54A362}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{3B204603-E8A1-4D9B-8B95-8A73D080ECFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B204603-E8A1-4D9B-8B95-8A73D080ECFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B204603-E8A1-4D9B-8B95-8A73D080ECFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{693A2E8D-CC9A-4F85-88C1-49DCBD54A362}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{693A2E8D-CC9A-4F85-88C1-49DCBD54A362}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{693A2E8D-CC9A-4F85-88C1-49DCBD54A362}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{693A2E8D-CC9A-4F85-88C1-49DCBD54A362}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
